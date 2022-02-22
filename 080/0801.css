@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: "FangSong", "FangSong", Arial, serif;
+    background-color: rgba(95, 133, 112, 0.705);
+}
+
+#topimg {
+    transform: perspective(0% 50%);
+}
+
+section {
+    color: rgb(189, 189, 189);
+}
+
+fieldset {
+    display: inline-block;
+    margin: auto;
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 2px groove (internal value); */
+}
+
+div[id^="article"] {
+    color: rgb(189, 189, 189);
+    background-color: rgba(2, 63, 63, 0.575);
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+
+#article-2,
+#article-3,
+#article-4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

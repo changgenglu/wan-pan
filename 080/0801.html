@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>做愛心世代文創</title>
+
+    <link rel="stylesheet" href="./0801.css">
+    <link rel="icon" href="./蛋糕.png">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            font-family: "FangSong", "FangSong", Arial, serif;
+            background-color: rgba(95, 133, 112, 0.705);
+        }
+
+        #topimg {
+            transform: perspective(0% 50%);
+        }
+
+        section {
+            color: rgb(189, 189, 189);
+        }
+
+        fieldset {
+            display: inline-block;
+            margin: auto;
+            width: 200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            /* border: 2px groove (internal value); */
+        }
+
+        div[id^="article"] {
+            color: rgb(189, 189, 189);
+            background-color: rgba(2, 63, 63, 0.575);
+            width: 70%;
+            margin: auto;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding-top: 5px;
+            padding-bottom: 30px;
+            border-radius: 30px;
+        }
+
+        #article-2,
+        #article-3,
+        #article-4 {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="topimg">
+        <img src="./lofigirl-1.png" alt="lofigirl-1" style="width: 100%; transform: perspective(0% 50%);">
+    </div>
+    <header>
+        <div id="article-head">
+
+            <h1>支持設計人的你應該關注的：Ihaveapan 2.0 愛心筆</h1>
+            <h4>支持台灣設計人才+充滿台灣價值 = 尊重、友善、平等、包容</h4>
+
+            <p>你好我們是台灣做愛心世代文化創意團隊</p>
+
+            <p>想透過這份問卷了解大家對於文創設計的支持，以及獨立思考的能力</p>
+            <p>懇請幫忙填寫</p>
+        </div>
+    </header>
+    <form action="">
+        <section>
+
+
+
+
+            <div id="article-taste">
+                <h2>品味的培養，來自生活，來自對於設計師的尊重！</h2>
+                <p>富有品味的你，平常的消費習慣，會選擇設計師的原創產品，還是高CP值的山寨貨呢？</p>
+                <input type="radio" name="taste" id="taste-good"><label for="taste-good"><img src="./MOD.jpg" alt="MOD"
+                        style="width: 30%;"></label>
+
+                <input type="radio" name="taste" id="taste-bad"><label for="taste-bad"><img src="./安博盒子.jpg" alt="安博盒子"
+                        style="width: 30%;"></label>
+            </div>
+
+            <div id="article-heart">
+
+
+                <h2>在忙碌的現代社會，是否已經好久沒有慢下腳步，觀察生活周遭的人事物呢？</h2>
+                <p>善良又慧眼獨具的你，有天在路上遇到充滿夢想的年輕設計師，和窮得只能縮減布料的業務</p>
+                <p>哪一位會令你願意停下腳步呢？</p>
+                <div id="heart-pick">
+
+                    <input type="radio" name="heart" id="heart-good">
+                    <label for="heart-good">
+                        <figure>
+                            <img src="./愛心筆.PNG" alt="愛心筆" style="width: 40%;">
+                            <figcaption>年輕設計師</figcaption>
+                    </label>
+                    </figure>
+
+                    <input type="radio" name="heart" id="heart-bad">
+
+                    <label for="heart-bad">
+                        <figure>
+                            <img src="./美女.jpg" alt="美女" style="width: 40%;">
+                            <figcaption>貧窮業務</figcaption>
+
+                        </figure>
+
+                    </label>
+                </div>
+
+            </div>
+
+            <h2 style="color: rgba(2, 63, 63, 0.575);">基本資料</h2>
+
+            <div id="article-2">
+
+                <fieldset>
+                    <legend><label for="">姓名</label></legend>
+                    <input type="text" name="usermane" required placeholder="陳建州">
+                </fieldset>
+
+                <fieldset>
+                    <legend><label for="">連絡電話</s></label></legend>
+                    <input type="tel" name="userphone" required maxlength="10" placeholder="09876543231">
+                </fieldset>
+
+                <fieldset>
+                    <legend><label for="">身分證字號</s></label></legend>
+                    <input type="text" name="userid" required maxlength="10" type="password" placeholder="A888888888">
+                </fieldset>
+                <br>
+            </div>
+
+            <div id="article-3">
+                <div action="">性別：
+                    <input type="radio" name="gender" id="female"><label for="female">女</label>
+                    <input type="radio" name="gender" id="male"><label for="male">男</label>
+                    <input type="radio" name="gender" id="female-male"><label for="female-male">生理女,性別認同男</label>
+                    <input type="radio" name="gender" id="male-female"><label for="male-female">生理男,性別認同女</label>
+                    <input type="radio" name="gender" id="female-none"><label for="female-none">生理女,性別認同無</label>
+                    <input type="radio" name="gender" id="male-none"><label for="male-none">生理男,性別認同無</label>
+                    <input type="radio" name="gender" id="othersexual"><label for="othersexual">其他</label>
+                </div>
+                <br>
+                <div action="">年紀：
+
+                    <input type="radio" name="age" id="0~20"><label for="0~20">未滿二十</label>
+                    <input type="radio" name="age" id="20~30"><label for="20~30">二十到三十</label>
+                    <input type="radio" name="age" id="30~40"><label for="30~40">三十到四十</label>
+                    <input type="radio" name="age" id="40~50"><label for="40~50">四時到五十</label>
+                    <input type="radio" name="age" id="50up"><label for="50up">五十以上</label>
+                    <br>
+                </div>
+                <br>
+                <div action="">
+                    膚色：<input type="color" value="#1eba13">
+                    政治傾向：<input type="color" value="#ff0051">
+                </div>
+            </div>
+
+
+
+            <div id="article-4">
+                <div action="">
+                    <spang>身分證正反面：</span>
+                        <input type="file" accept="image/*,.pdf" multiple required accept="image/*" capture>
+                </div>
+                <br><br>
+                <div action="">
+                    <spang>戶口名簿正反面：</span>
+                        <input type="file" accept="image/*,.pdf" multiple required accept="image/*" capture>
+                </div>
+            </div>
+
+
+
+            <div id="article-5">
+                <h2>認識信用卡</h2>
+                <p>現代社會詐騙層出不窮，一起認識信用卡上面的資訊，以防被騙！</p>
+                <p>請照下列選項填入卡片上對應資訊</p>
+                <div action="">
+                    <p>
+                        <label for="card">
+                            <span>Card type:</span>
+                        </label>
+                        <select id="card" name="usercard">
+                            <option value="visa">Visa</option>
+                            <option value="mc">Mastercard</option>
+                            <option value="amex">American Express</option>
+                        </select>
+                </div>
+                </p>
+                <div action="">
+                    <p>
+                        <label for="number">
+                            <span>信用卡卡號：</span>
+                            <input type="tel" id="number" name="cardnumber" required maxlength="4" style="width: 30px;">
+                            -
+                            <input type="tel" id="number" name="cardnumber" required maxlength="4" style="width: 30px;">
+                            -
+                            <input type="tel" id="number" name="cardnumber" required maxlength="4" style="width: 30px;">
+                            -
+                            <input type="tel" id="number" name="cardnumber" required maxlength="4" style="width: 30px;">
+                </div>
+                </p>
+                <div action="">
+                    <p>
+                        <label for="safe-number">
+                            <span>三碼檢查碼：</span>
+                            <input type="tel" id="safe-number" name="safe-number" required maxlength="3"
+                                style="width: 30px;">
+                            <span style="font-size: 0.5rem;color: black;">背面後三碼檢查碼</span>
+
+
+                </div>
+                </p>
+                <div action="">
+                    <p>
+                        <label for="date">
+                            <span>信用卡到期日：</span>
+
+                            <em>mm/yyyy</em>
+                        </label>
+                        <input type="datetime" id="date" name="expiration" required maxlength="7">
+                </div>
+                </p>
+            </div>
+
+
+
+
+
+
+        </section>
+        <footer>
+            <P><input type="button" value="送出表單" style="width: 200px; height: 50px;"></P>
+
+        </footer>
+
+
+</body>
+
+</html>
